@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #eee;
+}
+
+.fixed-height{
+  height: 100%;
+  overflow:hidden;
+}
+
+.col-menu{
+  display: inline;
+  float: left;
+  background: pink;
+  padding: 20px;
+  width: 200;
+  height: 100%;
+}
+
+.col-display{
+  display: inline;
+  margin: 0;
+  background: blue;
+  width: 80%;
+}
+
+.works{
+  float: left;
+  display: inline-block;
+  background: #ccc;
+  margin: 10px;
+  width: 20%;
+}
