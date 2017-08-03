@@ -1,35 +1,61 @@
-html, body {
-  margin: 0;
-  padding: 0;
+body{
+  font-family: 'roboto', sans-serif;
+}
+
+h1{
+  padding: 10px;
+}
+
+.wrapper{
   height: 100%;
-  background: #eee;
+  width: 100%;
+  margin-left: auto;
+  margin-left: auto;
 }
 
 .fixed-height{
   height: 100%;
-  overflow:hidden;
 }
 
 .col-menu{
+  margin: 0;
+  padding: 0;
   display: inline;
   float: left;
-  background: pink;
-  padding: 20px;
-  width: 200px;
-  height: 100%;
+  background: #eee;
+  width: 20%;
+  max-width: 300px;
+}
+
+.col-menu ul{
+  padding: 10px 0px 10px 40px;
+}
+
+.col-menu ul li{
+  padding: 10px 0px;
 }
 
 .col-display{
-  display: inline;
   margin: 0;
-  background: blue;
+  padding: 0;
+  display:inline;
+  float: left;
   width: 80%;
+  background: white;
+
 }
 
 .works{
-  float: left;
+  float:left;
   display: inline-block;
-  background: #ccc;
-  margin: 10px;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  margin: 20px 10px;
   width: 20%;
+  height: 150px;
+}
+
+a{
+  color: black;
 }
